@@ -101,6 +101,7 @@ img {
 
 .header-navbar{
     transform: translateY(-3px);
+    height: 50px;
 }
 
 .header-logoimg {
@@ -156,6 +157,7 @@ img {
     display: flex;
     justify-content: space-between;
     margin-bottom: 190px;
+    z-index: 5;
 }
 
 .main-textblock {
@@ -166,10 +168,12 @@ img {
 
 .main-img{
     width: auto;
+    z-index: 2;
 }
 
 .main-backimg {
     position: absolute;
+    z-index: 2;
     transform: translateX(-53px) translateY(90px);
 }
 
@@ -194,11 +198,13 @@ img {
     color: #7D7987;
     line-height: 32px;
     margin-bottom: 40px;
+    z-index: 2;
 }
 
 .main-title {
     font-size: 48px;
     margin-bottom: 25px;
+    z-index: 2;
 }
 
 
@@ -1030,6 +1036,9 @@ img {
 }
 
 @media (max-width: 800px) { 
+    body{
+        margin-top: 10px;
+    }
     .container{
         width: auto;
     }
@@ -1056,6 +1065,8 @@ img {
 }
 
 @media (max-width: 768px) {
+
+
     .main-img{
         width: 80%;
     }
