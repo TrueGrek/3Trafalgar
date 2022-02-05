@@ -489,7 +489,7 @@ img {
 .owl-prev{
     width: 29px;
     height: 20px;
-    background-image: url(/img/decoration/arrow.png) !important;
+    background-image: url(../img/decoration/arrow.png) !important;
     transform: rotate(180deg) translateY(0.8px);
     margin-right: 150px;
     transition: filter 1s;
@@ -508,7 +508,7 @@ img {
     width: 29px;
     height: 20px;
     margin-left: 150px;
-    background-image: url(/img/decoration/arrow.png) !important;
+    background-image: url(../img/decoration/arrow.png) !important;
     transition: filter 1s;
 }
 
